@@ -65,8 +65,8 @@
             if(follows[i].equals(name)){
                 follows[i] = null;
                 closeGap(i);
+                return true;
             }
-            return true;
         }
         return false;
     }
